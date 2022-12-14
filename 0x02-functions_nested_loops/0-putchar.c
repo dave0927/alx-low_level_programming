@@ -13,7 +13,7 @@ int main(void)
 
 	for (int _ch = 0; _ch < 8; _ch++)
 	{
-		_putchar(theString[ch]);
+		_putchar(theString[_ch]);
 	}
 	_putchar("\n");
 
