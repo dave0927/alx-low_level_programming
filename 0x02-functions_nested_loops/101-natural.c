@@ -8,12 +8,13 @@
 
 int main(void)
 {
-	int _sum = 0;
+	int _sum = 0, i = 0;
 
-	for (int i = 0; i < 1024; i++)
+	while (i < 1024)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 			_sum += i;
+		i++;
 	}
 
 	printf("%d\n", _sum);
