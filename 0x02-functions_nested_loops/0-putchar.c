@@ -10,10 +10,9 @@
 int main(void)
 {
 	char theString[] = "_putchar";
-	int ch = 0;
 
-	for (ch; ch < 8; ch++)
-	{	
+	for (int _ch = 0; _ch < 8; _ch++)
+	{
 		_putchar(theString[ch]);
 	}
 	_putchar("\n");
