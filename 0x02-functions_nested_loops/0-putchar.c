@@ -9,11 +9,13 @@
 
 int main(void)
 {
-	char _string[] = "_putchar";
-	int _ch = 0;
+	char theString[] = "_putchar";
+	int ch = 0;
 
-	for (_ch; _ch < 8; ++_ch)
-		_putchar(_string[_ch]);
+	for (ch; ch < 8; ch++)
+	{	
+		_putchar(theString[ch]);
+	}
 	_putchar("\n");
 
 	return (0);
