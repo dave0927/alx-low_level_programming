@@ -8,11 +8,10 @@
 
 void print_to_98(int n)
 {
-	int count;
+	int count = n;
 
 	if (n > 98)
 	{
-		count = n;
 		while (count > 98)
 		{
 			printf("%d, ", count);
@@ -21,11 +20,11 @@ void print_to_98(int n)
 	}
 	else
 	{
-		count = n;
 		while (count < 98)
 		{
 			printf("%d, ", count);
 			count++;
 		}
 	}
+	printf("98\n");
 }
