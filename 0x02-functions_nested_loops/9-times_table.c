@@ -8,14 +8,12 @@ void times_table(void)
 {
 	int n = 0, m = 1, p;
 
-	for (n; n <= 9; n++)
+	while (n <= 9)
 	{
 		_putchar(48);
-		for (m; m <= 9; m++)
+		while(m <= 9)
 		{
-			_putchar(',');
 			_putchar(' ');
-
 			p = n * m;
 
 			if (p <= 9)
@@ -25,6 +23,7 @@ void times_table(void)
 
 			_putchar((p % 10) + 48);
 		}
+		n++;
 		_putchar('\n');
-	}
+	}		
 }
