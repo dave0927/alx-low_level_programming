@@ -14,6 +14,7 @@ void times_table(void)
 		m = 1;
 		while (m <= 9)
 		{
+			_putchar(',');
 			_putchar(' ');
 			p = n * m;
 
