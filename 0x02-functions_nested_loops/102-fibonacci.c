@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h>
 
 /**
 * main - Entry point
@@ -11,7 +11,7 @@ int main(void)
 	int _n = 0;
 	long int num1 = 0, num2 = 1, _sum;
 
-	for (_n; _n < 50; _n++)
+	while (_n < 50)
 	{
 		_sum = num1 + num2;
 		printf("%lu", _sum);
@@ -23,6 +23,7 @@ int main(void)
 			printf("\n");
 		else
 			printf(", ");
+	 _n++;
 	}
 	return (0);
 }
