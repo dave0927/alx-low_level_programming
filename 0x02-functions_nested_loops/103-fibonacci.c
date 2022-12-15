@@ -9,8 +9,9 @@
 int main(void)
 {
 	long int  i = 1, j = 2, _next, _sum = 0;
+	int n = 1;
 
-	for (int n = 1; n <= 33; n++)
+	while (n <= 33)
 	{
 		if (i < 4000000 && (i % 2) == 0)
 		{
@@ -19,6 +20,7 @@ int main(void)
 		_next = i + j;
 		i = j;
 		j = _next;
+		n++;
 	}
 
 	printf("%lu\n", _sum);
