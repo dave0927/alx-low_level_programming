@@ -16,6 +16,7 @@ int sqtRecursive(int start, int end, int n)
 		mid = start + (end - start) / 2;
 		if (mid * mid == n)
 			return (mid);
+/* following binary search */
 		if (mid * mid > n)
 			return (sqtRecursive(start, mid - 1, n));
 		if (mid * mid < n)
@@ -23,6 +24,11 @@ int sqtRecursive(int start, int end, int n)
 	}
 	return (-1);
 }
+/**
+ * _sqrt_recursion - finds the natural square root of a number
+ * @n: given number
+ * Return: square root of n or -1
+ **/
 	int _sqrt_recursion(int n)
 {
 	if (n < 0)
@@ -31,3 +37,4 @@ int sqtRecursive(int start, int end, int n)
 		return (n);
 	return (sqtRecursive(2, n, n));
 }
+
