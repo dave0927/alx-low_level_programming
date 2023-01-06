@@ -8,10 +8,10 @@
  * Return: 0
  */
 
-int main(int argc, char **argv)
+int main (int argc, char **argv)
 {
 	int a;
-	int b,
+	int b;
 	int result = 0;
 
 	for (a = 1; a < argc; a++)
